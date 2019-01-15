@@ -15,20 +15,28 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
     <li><a href="#">Babel</a></li>
     <li><a href="#">Classe</a></li>
     <li><a href="#">Const & Let</a></li>
-    <li>Array</li>
-    <li>Arrow</li>
-    <li>Valores padrões</li>
-    <li>Desistruturação</li>
-    <li>Rest & Spread</li>
-    <li>Templete Literal</li>
-    <li>Sintaxe curta objetos</li>
-    <li>Webpack</li>
-    <li>Import & Export</li>
-    <li>Webpack devServer</li>
-    <li>Async & Await</li>
-    <li>Axios e Api</li>
-    <li>App com es6+</li>
-    <li>Adicionando repos</li>
-    <li>Buscando Api</li>
-    <li>Loading</li>
+    <li><a href="#">Array</a></li>
+    <li><a href="#">Arrow</a></li>
+    <li><a href="#">Valores padrões</a></li>
+    <li><a href="#">Desistruturação</a></li>
+    <li><a href="#">Rest & Spread</a></li>
+    <li><a href="#">Templete Literal</a></li>
+    <li><a href="#">Sintaxe curta objetos</a></li>
+    <li><a href="#">Webpack</a></li>
+    <li><a href="#">Import & Export</a></li>
+    <li><a href="#">Webpack devServer</a></li>
+    <li><a href="#">Async & Await</a></li>
+    <li><a href="#">Axios e Api</a></li>
+    <li><a href="#">App com es6+</a></li>
+    <li><a href="#">Adicionando repos</a></li>
+    <li><a href="#">Buscando Api</a></li>
+    <li><a href="#">Loading</a></li>
 </ul>
+
+## CURSO DE JAVASCRIPT ES6+ 
+<br>
+#### ECMAScript 2015
+<p>
+Fala galera tudo bem com vocês? Meu nome é Lucas Pedro estou cursando o 5ª período em Engenharia de Software e irei ministrar esse curso de javscript ES6+. Antes que possamos dar início às explicações e colocar a mão na	massa, é muito importante entender corretamente o que é o ECMAScript e qual a sua relação com o JavaScript. O ECMAScript (ES) é a especificação da linguagem de script que o JavaScript implementa. Isto é, a descrição de uma linguagem de script, sendo padronizado	pela Ecma International (http://www.ecmascript.org/index.php) —	associação criada em 1961 dedicada à padronização de	sistemas de	informação e comunicação — na especificação	ECMA-262. ECMAScript 2015 sofreu uma mudança significativa melhorando o desenvolvimento e trabalhando melhor os conceitos como paradigmo Orientado Objeto já concebido em outras liguagem como Java e PHP, vários outros recurso que ajudam a tornar o JS uma ligugem ainda mais poderesa.
+Então sem mais delongas vamos dar início ao curso.
+</p>
