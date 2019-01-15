@@ -11,26 +11,26 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
 
 <h5>Recursos do ECMAScript 2015 e tópicos extras.</h5>
 <ul>
-    <li><a href="#">ECMAScript 2015</a></li>
-    <li><a href="#">Babel</a></li>
-    <li><a href="#">Classe</a></li>
-    <li><a href="#">Const & Let</a></li>
-    <li><a href="#">Array</a></li>
-    <li><a href="#">Arrow</a></li>
-    <li><a href="#">Valores padrões</a></li>
-    <li><a href="#">Desistruturação</a></li>
-    <li><a href="#">Rest & Spread</a></li>
-    <li><a href="#">Templete Literal</a></li>
-    <li><a href="#">Sintaxe curta objetos</a></li>
-    <li><a href="#">Webpack</a></li>
-    <li><a href="#">Import & Export</a></li>
-    <li><a href="#">Webpack devServer</a></li>
-    <li><a href="#">Async & Await</a></li>
-    <li><a href="#">Axios e Api</a></li>
-    <li><a href="#">App com es6+</a></li>
-    <li><a href="#">Adicionando repos</a></li>
-    <li><a href="#">Buscando Api</a></li>
-    <li><a href="#">Loading</a></li>
+    <li><a href="#" target="blank">ECMAScript 2015</a></li>
+    <li><a href="#" target="blank">Babel</a></li>
+    <li><a href="#" target="blank">Classe</a></li>
+    <li><a href="#" target="blank">Const & Let</a></li>
+    <li><a href="#" target="blank">Array</a></li>
+    <li><a href="#" target="blank">Arrow</a></li>
+    <li><a href="#" target="blank">Valores padrões</a></li>
+    <li><a href="#" target="blank">Desistruturação</a></li>
+    <li><a href="#" target="blank">Rest & Spread</a></li>
+    <li><a href="#" target="blank">Templete Literal</a></li>
+    <li><a href="#" target="blank">Sintaxe curta objetos</a></li>
+    <li><a href="#" target="blank">Webpack</a></li>
+    <li><a href="#" target="blank">Import & Export</a></li>
+    <li><a href="#" target="blank">Webpack devServer</a></li>
+    <li><a href="#" target="blank">Async & Await</a></li>
+    <li><a href="#" target="blank">Axios e Api</a></li>
+    <li><a href="#" target="blank">App com es6+</a></li>
+    <li><a href="#" target="blank">Adicionando repos</a></li>
+    <li><a href="#" target="blank">Buscando Api</a></li>
+    <li><a href="#" target="blank">Loading</a></li>
 </ul>
 
 ## CURSO DE JAVASCRIPT ES6+ 
