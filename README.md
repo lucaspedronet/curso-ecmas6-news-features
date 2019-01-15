@@ -9,12 +9,12 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
 
 <p>Este repositório trata-se de um curso de JavaScript ES6+ que aborda as principais feature do javaScript 2015. <br> No decorrer do curso iremos aprender não somente as novas features JS, mas trabalhares com babel, webpack e yarn em uma aplicação simples utilizando todos os recursos aprendidos no curso, é extremamente recomendado que ao iniciar o curso você já possua um conhecimento básico de lógica de programação e esteja familiarizado com terminal de controle de seu sistema operacional.</p>
 
-<h5>Recursos do ECMAScript 2015</h5>
+<h5>Recursos do ECMAScript 2015 e tópicos extras.</h5>
 <ul>
-    <li>ECMAScript 2015</li>
-    <li>Babel</li>
-    <li>Class</li>
-    <li>Const & Let</li>
+    <li><a href="#">ECMAScript 2015</a></li>
+    <li><a href="#">Babel</a></li>
+    <li><a href="#">Classe</a></li>
+    <li><a href="#">Const & Let</a></li>
     <li>Array</li>
     <li>Arrow</li>
     <li>Valores padrões</li>
