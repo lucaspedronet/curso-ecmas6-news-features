@@ -13,7 +13,7 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
 <ul>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-ecmascript-2015-" target="blank">ECMAScript 2015</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-" target="blank">Instalação e Configuração</a></li>
-    <li><a href="/ECMAScript 2015" target="blank">Babel</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-babel-" target="blank">Babel</a></li>
     <li><a href="#" target="blank">Classe</a></li>
     <li><a href="#" target="blank">Const & Let</a></li>
     <li><a href="#" target="blank">Array</a></li>
@@ -52,19 +52,36 @@ Precione as teclas em conjuto (windows + X) e escolha Windows PoweShell(admin) i
 `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))` precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o Yarn então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br><br>
 <img src="node_yarn_version.PNG" alt="node e yarn" height="142" width="442"><br><br>
 
-<h2> Babel </h2><br>
+<h2> Babel </h2>
 <p>
 Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamos criar uma paste de nome <i>es6</i> que irá conter nosso projeto, em seguida abra seu terminal a partir dessa pasta e execute o seguinte comando: `yarn init` Pressione a tecla Entre até aparecer a mensagem <i>success saved packege.json</i> (As versoes mais recente do yarn pode pedir para que informe o nome do projeto nesse caso pode colocar o mesmo nome da pasta do projeto) esse comando criará um arquivo packege,json que gerenciará as dependências instaladas no projeto. Vamos precisar instalar algumas dependências e para isso precisamos da linha de comando do Babel instalada.
 </p> 
 <Ul>
-    <li>`yarn add @babel/cli` [ Instalando a cli do babel (linha de comando do Babel). ]</li>
-    <li>`@babel/preset-env` [ Instalando a preset-env. ]</li>
+    <li> yarn add @babel/cli [ Instalando a cli do babel (linha de comando do Babel). ]</li>
+    <li>@babel/preset-env [ Instalando a preset-env. ]</li>
     
 </ul>
 
-<p>Vamos criar na raiz de nosso projeto um arquivo .babelrc  que vai conter o seguinte trecho de código:</p>
-`
+<p>Vamos criar na raiz de nosso projeto um arquivo `.babelrc`  que vai conter o seguinte trecho de código:</p>
+
 {
     "presets": ["@babel/preset-env"]
 }
-`
+
+<h2> Classe </h2>
+<h2> Const & Let </h2>
+<h2> Array </h2>
+<h2> Arrow </h2>
+<h2> Desistruturação </h2>
+<h2> Rest & Spread </h2>
+<h2> Templete Literal </h2>
+<h2> Sintaxe curta objetos </h2>
+<h2> Webpack </h2>
+<h2> Import & Export </h2>
+<h2> Webpack devServer </h2>
+<h2> Async & Await </h2>
+<h2> Axios e Api </h2>
+<h2> App com es6+ </h2>
+<h2> Adicionando repos </h2>
+<h2> Buscando Api </h2>
+<h2> Loading </h2>
