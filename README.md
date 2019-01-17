@@ -50,5 +50,4 @@ Precione as teclas em conjuto (windows + X) e escolha Windows PoweShell(admin) i
 <p>Agora, execute o seguinte comando: (copiar texto de comando)</p>
 
 `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))` precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o Yarn então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br>
-<img src="node_yarn_version.png" alt="node e yarn" height="42" width="142">
-<img src="node_yarn_version.PNG" alt="node e yarn" height="42" width="142">
+<img src="node_yarn_version.PNG" alt="node e yarn" height="242" width="442">
