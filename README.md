@@ -84,12 +84,18 @@ Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “scrip
 </p>
 <br>
 <p>
-O atributo dev vai pegar nosso arquivo main.js e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.<b><br><br>
-Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o `alert(‘Funcionou’)` é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação. Então vamos adicionar uma classe que é um das features da versão mais recente no ECS6+ acompanhe na imagem abaixo, dentro do main.js reescreva o código da seguinte forma:
+O atributo dev vai pegar nosso arquivo main.js e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
+Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o `alert(‘Funcionou’)` é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
 </p>
 
 
 <h2> Classe </h2>
+<p>
+Então vamos adicionar uma classe que é um das features da versão mais recente no ECS6+ acompanhe na imagem abaixo, dentro do main.js reescreva o código da seguinte forma:
+</p><br>
+<img src="./img/classe_teste.PNG" alt="Classe teste" height="98" width="572"><br><br>
+<img src="/img/classe_teste.PNG" alt="Classe teste" height="98" width="572"><br><br>
+<img src="img/classe_teste.PNG" alt="Classe teste" height="98" width="572"><br><br>
 
 <h2> Const & Let </h2>
 <h2> Array </h2>
