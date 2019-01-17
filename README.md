@@ -49,5 +49,22 @@ Precione as teclas em conjuto (windows + X) e escolha Windows PoweShell(admin) i
 </p>
 <p>Agora, execute o seguinte comando: (copiar texto de comando)</p>
 
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))` precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o Yarn então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br>
-<img src="node_yarn_version.PNG" alt="node e yarn" height="242" width="442">
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))` precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o Yarn então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br><br>
+<img src="node_yarn_version.PNG" alt="node e yarn" height="142" width="442"><br><br>
+
+<h2> Babel </h2><br>
+<p>
+Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamos criar uma paste de nome <i>es6</i> que irá conter nosso projeto, em seguida abra seu terminal a partir dessa pasta e execute o seguinte comando: `yarn init` Pressione a tecla Entre até aparecer a mensagem <i>success saved packege.json</i> (As versoes mais recente do yarn pode pedir para que informe o nome do projeto nesse caso pode colocar o mesmo nome da pasta do projeto) esse comando criará um arquivo packege,json que gerenciará as dependências instaladas no projeto. Vamos precisar instalar algumas dependências e para isso precisamos da linha de comando do Babel instalada.
+</p> 
+<Ul>
+    <li>`yarn add @babel/cli` [ Instalando a cli do babel (linha de comando do Babel). ]</li>
+    <li>`@babel/preset-env` [ Instalando a preset-env. ]</li>
+    
+</ul>
+
+<p>Vamos criar na raiz de nosso projeto um arquivo .babelrc  que vai conter o seguinte trecho de código:</p>
+`
+{
+    "presets": ["@babel/preset-env"]
+}
+`
