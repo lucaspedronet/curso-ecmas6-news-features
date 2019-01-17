@@ -68,7 +68,29 @@ Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamo
     "presets": ["@babel/preset-env"]
 }
 
+<p>
+O babel possui vários preset-env ele vai identificar qual ambiente nós estamos utilizando para desenvolver se é um navegador (páginas web), Servidor nodejs (API Rest) ou Mobile(RN) e fará o trabalho de transpilar todo nosso código JSES6+ para um versão que seja compreendia pela maioria do navegadores e irá fazer isso da melhor forma possível.<br>
+Vamos adicionar mais uma dependência ao babel: 
+</p>
+`yarn add @babel/core`
+<br>
+<p>
+Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um “alert(‘Funcionou’)”.<br>
+Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “script” conforme figura abaixo:<br><br>
+`"scripts": {
+    "dev": "babel ./main.js -o ./bundle.js"
+  }
+`
+</p>
+<br>
+<p>
+O atributo dev vai pegar nosso arquivo main.js e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.<b><br><br>
+Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o `alert(‘Funcionou’)` é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação. Então vamos adicionar uma classe que é um das features da versão mais recente no ECS6+ acompanhe na imagem abaixo, dentro do main.js reescreva o código da seguinte forma:
+</p>
+
+
 <h2> Classe </h2>
+
 <h2> Const & Let </h2>
 <h2> Array </h2>
 <h2> Arrow </h2>
