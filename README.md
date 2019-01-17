@@ -1,4 +1,4 @@
-# ECMAScript 6+
+# CURSO JAVASCRIPT ES6+
 
 ### INTRODUÇÃO
 <h5>O ECMAScript 2015 é um padrão ECMAScript que foi ratificado em junho de 2015.</h5>
@@ -33,10 +33,17 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
     <li><a href="#" target="blank">Loading</a></li>
 </ul>
 
-## CURSO DE JAVASCRIPT ES6+ 
 <br>
-#### ECMAScript 2015
+### ECMAScript 2015
 <p>
 Fala galera tudo bem com vocês? Meu nome é Lucas Pedro estou cursando o 5ª período em Engenharia de Software e irei ministrar esse curso de javscript ES6+. Antes que possamos dar início às explicações e colocar a mão na	massa, é muito importante entender corretamente o que é o ECMAScript e qual a sua relação com o JavaScript. O ECMAScript (ES) é a especificação da linguagem de script que o JavaScript implementa. Isto é, a descrição de uma linguagem de script, sendo padronizado	pela Ecma International (http://www.ecmascript.org/index.php) —	associação criada em 1961 dedicada à padronização de	sistemas de	informação e comunicação — na especificação	ECMA-262. ECMAScript 2015 sofreu uma mudança significativa melhorando o desenvolvimento e trabalhando melhor os conceitos como paradigmo Orientado Objeto já concebido em outras liguagem como Java e PHP, vários outros recurso que ajudam a tornar o JS uma ligugem ainda mais poderesa.
-Então sem mais delongas vamos dar início ao curso.
+Então sem mais delongas vamos dar início ao curso. </p> <br>
+<p>
+Para darmos inicio no curso teremos que baixar um gerenciado de dependências que facilitará a instalação de pacotes e bibliotecas nesse caso será o chocolatey para windows, então acese o site do <a href="https://chocolatey.org/" target="blank">chocolatey</a> e siga as instruções de instalção: <br>
+Instalar com o PowerShell.exe
+Com o PowerShell, há um passo adicional. Você deve garantir que <b>Get-ExecutionPolicy</b> não seja Restrito. Sugerimos usar Bypasspara ignorar a política para obter as coisas instaladas ou AllSignedpara um pouco mais de segurança.<br>
+
+Execute <b>Get-ExecutionPolicy.</b> Se ele retornar `Restricted`, execute `Set-ExecutionPolicy AllSigned` ou `Set-ExecutionPolicy Bypass -Scope Process`.
 </p>
+<p>Agora, execute o seguinte comando:   (copiar texto de comando)</p>
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
