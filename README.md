@@ -14,24 +14,24 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-ecmascript-2015-" target="blank">ECMAScript 2015</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-" target="blank">Instalação e Configuração</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-babel-" target="blank">Babel</a></li>
-    <li><a href="#" target="blank">Classe</a></li>
-    <li><a href="#" target="blank">Const & Let</a></li>
-    <li><a href="#" target="blank">Array</a></li>
-    <li><a href="#" target="blank">Arrow</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-classe-" target="blank">Classe</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-const--let-" target="blank">Const & Let</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-array-" target="blank">Array</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-arrow-" target="blank">Arrow</a></li>
     <li><a href="#" target="blank">Valores padrões</a></li>
-    <li><a href="#" target="blank">Desistruturação</a></li>
-    <li><a href="#" target="blank">Rest & Spread</a></li>
-    <li><a href="#" target="blank">Templete Literal</a></li>
-    <li><a href="#" target="blank">Sintaxe curta objetos</a></li>
-    <li><a href="#" target="blank">Webpack</a></li>
-    <li><a href="#" target="blank">Import & Export</a></li>
-    <li><a href="#" target="blank">Webpack devServer</a></li>
-    <li><a href="#" target="blank">Async & Await</a></li>
-    <li><a href="#" target="blank">Axios e Api</a></li>
-    <li><a href="#" target="blank">App com es6+</a></li>
-    <li><a href="#" target="blank">Adicionando repos</a></li>
-    <li><a href="#" target="blank">Buscando Api</a></li>
-    <li><a href="#" target="blank">Loading</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-desistrutura%C3%A7%C3%A3o-" target="blank">Desistruturação</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-rest--spread-" target="blank">Rest & Spread</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-templete-literal-" target="blank">Templete Literal</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-sintaxe-curta-objetos-" target="blank">Sintaxe curta objetos</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-webpack-" target="blank">Webpack</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-import--export-" target="blank">Import & Export</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-webpack-devserver-" target="blank">Webpack devServer</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-async--await-" target="blank">Async & Await</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-axios-e-api-" target="blank">Axios e Api</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-app-com-es6-" target="blank">App com es6+</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-adicionando-repos-" target="blank">Adicionando repos</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-buscando-api-" target="blank">Buscando Api</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-loading-" target="blank">Loading</a></li>
 </ul>
 
 <br>
@@ -72,6 +72,7 @@ Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamo
 <h2> Const & Let </h2>
 <h2> Array </h2>
 <h2> Arrow </h2>
+<h2> Valores padrões </h2>
 <h2> Desistruturação </h2>
 <h2> Rest & Spread </h2>
 <h2> Templete Literal </h2>
