@@ -11,8 +11,8 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
 
 <h4>Recursos do JavaScript ES6+ e Tópicos Extras.</h4>
 <ul>
-    <li><a href="#ECMAScript 2015" target="blank">ECMAScript 2015</a></li>
-    <li><a href="ECMAScript 2015" target="blank">Babel</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-ecmascript-2015-" target="blank">ECMAScript 2015</a></li>
+    <li><a href="/ECMAScript 2015" target="blank">Babel</a></li>
     <li><a href="#" target="blank">Classe</a></li>
     <li><a href="#" target="blank">Const & Let</a></li>
     <li><a href="#" target="blank">Array</a></li>
