@@ -18,7 +18,7 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-const--let-" target="blank">Const & Let</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-array-" target="blank">Array</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-arrow-" target="blank">Arrow</a></li>
-    <li><a href="#" target="blank">Valores padrões</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-valores-padr%C3%B5es-" target="blank">Valores padrões</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-desistrutura%C3%A7%C3%A3o-" target="blank">Desistruturação</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-rest--spread-" target="blank">Rest & Spread</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-templete-literal-" target="blank">Templete Literal</a></li>
@@ -49,7 +49,10 @@ Precione as teclas em conjuto (windows + X) e escolha Windows PoweShell(admin) i
 </p>
 <p>Agora, execute o seguinte comando: (copiar texto de comando)</p>
 
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))` precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o Yarn então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br><br>
+<pre><code> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))</code></pre><br>
+
+Precione enter e aguarde a instalação concluir, feito isso abra outro terminal e figite o comando `choco --version` para verificar o funcionamento do <b>chocolatey.</b> Agora vamos instalar o <b>Yarn</b> então mais uma vez em seu terminal digite `choco install yarn` esse comando também irá instalar o <a href="https://nodejs.org" target="blank">Node.js</a> caso não esteja instalado, caso queira instalar individualmente basta acessar o site (<a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a>). Agora teste o yarn e node digitando os camonado `yarn --version` e `node --version` ambos devem aparecer suas repectivas versões.<br><br>
+
 <img src="img/node_yarn_version.PNG" alt="node e yarn" height="142" width="442"><br><br>
 
 <h2> Babel </h2>
@@ -57,35 +60,38 @@ Precione as teclas em conjuto (windows + X) e escolha Windows PoweShell(admin) i
 Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamos criar uma paste de nome <i>es6</i> que irá conter nosso projeto, em seguida abra seu terminal a partir dessa pasta e execute o seguinte comando: `yarn init` Pressione a tecla Entre até aparecer a mensagem <i>success saved packege.json</i> (As versoes mais recente do yarn pode pedir para que informe o nome do projeto nesse caso pode colocar o mesmo nome da pasta do projeto) esse comando criará um arquivo packege,json que gerenciará as dependências instaladas no projeto. Vamos precisar instalar algumas dependências e para isso precisamos da linha de comando do Babel instalada.
 </p> 
 <Ul>
-    <li> yarn add @babel/cli [ Instalando a cli do babel (linha de comando do Babel). ]</li>
-    <li>@babel/preset-env [ Instalando a preset-env. ]</li>
+    <li><code>$ yarn add @babel/cli</code> [ Instalando a cli do babel (linha de comando do Babel). ]</li>
+    <li><code>$ @babel/preset-env</code> [ Instalando a preset-env. ]</li>
     
 </ul>
 
 <p>Vamos criar na raiz de nosso projeto um arquivo `.babelrc`  que vai conter o seguinte trecho de código:</p>
+<code>
+{<br>
+    "presets": ["@babel/preset-env"]<br>
+}<br>
 
-{
-    "presets": ["@babel/preset-env"]
-}
-
+</code>
 <p>
 O babel possui vários preset-env ele vai identificar qual ambiente nós estamos utilizando para desenvolver se é um navegador (páginas web), Servidor nodejs (API Rest) ou Mobile(RN) e fará o trabalho de transpilar todo nosso código JSES6+ para um versão que seja compreendia pela maioria do navegadores e irá fazer isso da melhor forma possível.<br>
 Vamos adicionar mais uma dependência ao babel: 
 </p>
-`yarn add @babel/core`
+<code>yarn add @babel/core</code>
 <br>
 <p>
-Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um “alert(‘Funcionou’)”.<br>
+Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um <code>alert(‘Funcionou’)</code>.<br>
 Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “script” conforme figura abaixo:<br><br>
-`"scripts": {
-    "dev": "babel ./main.js -o ./bundle.js"
+<code>
+"scripts": {<br>
+    "dev": "babel ./main.js -o ./bundle.js"<br>
   }
-`
+  </code>
+
 </p>
 <br>
 <p>
 O atributo <i>dev</i> vai pegar nosso arquivo <i>main.js</i> e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
-Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <i>`alert(‘Funcionou’)`</i> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
+Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>alert(‘Funcionou’)</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
 </p>
 
 <h2> Classe </h2>
@@ -96,7 +102,7 @@ Então vamos adicionar uma classe que é um das features da versão mais recente
 <p>Agora abra seu arquivo budle.js e veja como ficou! </p>
 <img src="img/budle_classe_teste.PNG" alt="Budle classe teste" height="285" width="572"><br>
 <p>
-Agora vamos adicionar um parâmetro que vai nos permitir a conversão dos código do budle de maneira automática, assim toda vez em que realizarmos alguma alteração no arquivo main.js e salvar ele irá transpilar automaticamente sempre que for realizado. <br>
+Agora vamos adicionar um parâmetro que vai nos permitir a conversão dos código do budle de maneira automática, assim toda vez em que realizarmos alguma alteração no arquivo <em><strong>main.js</strong></em> e salvar ele irá transpilar automaticamente sempre que for realizado. <br>
 Vamos inserir um código simples em nosso arquivo de html o index.
 </p><br>
 
@@ -105,9 +111,12 @@ Vamos inserir um código simples em nosso arquivo de html o index.
 
 <img src="img/classe_todo_list.PNG" alt="Classe todo list" height="288" width="572"><br>
 <p>
-O <i> `constructor() { }` </i>é o primeiro método de uma classe e ele é o responsável por iniciar os objetos dessa classe assim como seus atributos.<br>
-As classes possuem métodos <i>static</i> veremos mais na frete sobre. Na linha 12 temos uma constante <i>minhaLista</i> que recebe uma instância da classe <i>TodoList()</i>, a partir dessa nova instância podemos invocar seus métodos e atributos de classe. <br>
+O <code>constructor() { }</code> é o primeiro método de uma classe e ele é o responsável por iniciar os objetos dessa classe assim como seus atributos.<br>
+As classes possuem métodos <i>static</i> veremos mais na frete sobre. Na linha 12 temos uma constante <em><strong>minhaLista</strong></em> que recebe uma instância da classe <code>TodoList()</code>, a partir dessa nova instância podemos invocar seus métodos e atributos de classe. <br>
+
+
 <h4>Herança </h4>
+
 Outra característica interessante das classes é que podemos herdar métodos e atributos da classe pai (também é conhecida por classe mãe) da mesma forma que temos em linguagem mais madura no paradigma da Orientação a Objeto. <br>
 Veja como poderíamos utilizar a herança de classes em nosso exemplo da classe </i>TodoList()</i>.<br>
 </p>
@@ -115,13 +124,13 @@ Veja como poderíamos utilizar a herança de classes em nosso exemplo da classe 
 <img src="img/heranca_classe_todo_list.PNG" alt="Classe todo list" height="325" width="570"><br>
 
 <p>
-Perceba que criamos uma classe de nome <a>List</a> que contém um atributo data e um método <a>add()</a>, já na <a>classe TodoList</a> nós utilizamos o recurso do <a>extends</a> para herdarmos os atributos e métodos da <a>classe List</a>, desta forma temos acesso a todos os seus recurso. Também conseguimos adicionar mais funcionalidades (atributos e métodos) a essa classe herdada, se esse for o caso precisaremos utilizar o recurso do <a>super()</a> dentro do construtor da classe filho e em seguida adicionar os novos atributos e métodos à <a>classe TodoList</a>, vejamos o exemplo abaixo.
+Perceba que criamos uma classe de nome <em><strong>List</strong></em> que contém um atributo data e um método <em><strong>add()</strong></em>, já na <code>classe TodoList</code> nós utilizamos o recurso do <em><strong>extends</strong></em> para herdarmos os atributos e métodos da <code>classe List</code>, desta forma temos acesso a todos os seus recurso. Também conseguimos adicionar mais funcionalidades (atributos e métodos) a essa classe herdada, se esse for o caso precisaremos utilizar o recurso do <code>super()</code> dentro do construtor da classe filho e em seguida adicionar os novos atributos e métodos à <em><strong>classe TodoList</strong></em>, vejamos o exemplo abaixo.
 </p>
 
 <img src="img/extends_classe_list.PNG" alt="Extends classe list" height="190" width="570"><br>
 
 <p>
-Os métodos static possui uma particularidade, com ele conseguimos invocar um método sem a necessidade de instanciar um objeto <a>cons minhaLista = new TodoList()</a>  e em seguida <a>minhaLista.add()</a> isso ocorre porque os métodos statcs não enxergam o escopo externo ou seja ele só manipula informações interna no método ignorando o <a>constructor()</a> e restante da classe, ele é muito utilizado para receber alguma informação e gerar outra independente do contexto externo na classe em que foi criado, veja um exemplo com <a>classe Matematica</a> e método <a>static soma()</a>:
+Os métodos static possui uma particularidade, com ele conseguimos invocar um método sem a necessidade de instanciar um objeto <code>cons minhaLista = new TodoList()</code>  e em seguida <code>minhaLista.add()</code> isso ocorre porque os métodos statcs não enxergam o escopo externo ou seja ele só manipula informações interna no método ignorando o <code>constructor()</code> e restante da classe, ele é muito utilizado para receber alguma informação e gerar outra independente do contexto externo na classe em que foi criado, veja um exemplo com <em><strong>classe Matematica</strong></em> e método <em><strong>static soma()</strong></em>:
 </p>
 
 
@@ -132,6 +141,7 @@ Os métodos static possui uma particularidade, com ele conseguimos invocar um m�
 <p>
 Se você utiliza o javaScript básico há algum tempo sabe que utilizamos a palavra reservada var nomeDaVariavel = “valor” para declarar/iniciar variáveis e com as novas feature de ECS6+ ganhamos mais duas novas maneiras de declaramos uma é a const e a outra é let.<br>
 Uma constante não pode ter seu valor reatribuido, neste caso podemos multar seu valor e qual seria a diferencia entre multar e reatribuir valor de uma constante. Quando utilizamos a sintaxe de objetos conseguimos reatribuir os valores dos seus atributos vejamos:<br>
+<code>
 const a = 1<br>
 a = 3 <br>
 const objeto = { <br>
@@ -140,6 +150,7 @@ const objeto = { <br>
 }<br>
 objeto.idade = 25 <br>
 console.log(objeto, a)<br>
+</code>
 
 </p>
 
