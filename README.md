@@ -67,28 +67,31 @@ Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamo
 
 <p>Vamos criar na raiz de nosso projeto um arquivo `.babelrc`  que vai conter o seguinte trecho de código:</p>
 <code>
-{
-    "presets": ["@babel/preset-env"]
-}
+{<br>
+    "presets": ["@babel/preset-env"]<br>
+}<br>
+
 </code>
 <p>
 O babel possui vários preset-env ele vai identificar qual ambiente nós estamos utilizando para desenvolver se é um navegador (páginas web), Servidor nodejs (API Rest) ou Mobile(RN) e fará o trabalho de transpilar todo nosso código JSES6+ para um versão que seja compreendia pela maioria do navegadores e irá fazer isso da melhor forma possível.<br>
 Vamos adicionar mais uma dependência ao babel: 
 </p>
-`yarn add @babel/core`
+<code>yarn add @babel/core</code>
 <br>
 <p>
-Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um “alert(‘Funcionou’)”.<br>
+Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um <code>alert(‘Funcionou’)</code>.<br>
 Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “script” conforme figura abaixo:<br><br>
-`"scripts": {
-    "dev": "babel ./main.js -o ./bundle.js"
+<code>
+"scripts": {<br>
+    "dev": "babel ./main.js -o ./bundle.js"<br>
   }
-`
+  </code>
+
 </p>
 <br>
 <p>
 O atributo <i>dev</i> vai pegar nosso arquivo <i>main.js</i> e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
-Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>`alert(‘Funcionou’)`</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
+Note que foi criado um arquivo budle.js na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>alert(‘Funcionou’)</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
 </p>
 
 <h2> Classe </h2>
@@ -99,7 +102,7 @@ Então vamos adicionar uma classe que é um das features da versão mais recente
 <p>Agora abra seu arquivo budle.js e veja como ficou! </p>
 <img src="img/budle_classe_teste.PNG" alt="Budle classe teste" height="285" width="572"><br>
 <p>
-Agora vamos adicionar um parâmetro que vai nos permitir a conversão dos código do budle de maneira automática, assim toda vez em que realizarmos alguma alteração no arquivo main.js e salvar ele irá transpilar automaticamente sempre que for realizado. <br>
+Agora vamos adicionar um parâmetro que vai nos permitir a conversão dos código do budle de maneira automática, assim toda vez em que realizarmos alguma alteração no arquivo <em><strong>main.js</strong></em> e salvar ele irá transpilar automaticamente sempre que for realizado. <br>
 Vamos inserir um código simples em nosso arquivo de html o index.
 </p><br>
 
@@ -109,8 +112,11 @@ Vamos inserir um código simples em nosso arquivo de html o index.
 <img src="img/classe_todo_list.PNG" alt="Classe todo list" height="288" width="572"><br>
 <p>
 O <code>constructor() { }</code> é o primeiro método de uma classe e ele é o responsável por iniciar os objetos dessa classe assim como seus atributos.<br>
-As classes possuem métodos <i>static</i> veremos mais na frete sobre. Na linha 12 temos uma constante <em>minhaLista</em> que recebe uma instância da classe <code>TodoList()</code>, a partir dessa nova instância podemos invocar seus métodos e atributos de classe. <br>
+As classes possuem métodos <i>static</i> veremos mais na frete sobre. Na linha 12 temos uma constante <em><strong>minhaLista</strong></em> que recebe uma instância da classe <code>TodoList()</code>, a partir dessa nova instância podemos invocar seus métodos e atributos de classe. <br>
+
+
 <h4>Herança </h4>
+
 Outra característica interessante das classes é que podemos herdar métodos e atributos da classe pai (também é conhecida por classe mãe) da mesma forma que temos em linguagem mais madura no paradigma da Orientação a Objeto. <br>
 Veja como poderíamos utilizar a herança de classes em nosso exemplo da classe </i>TodoList()</i>.<br>
 </p>
@@ -118,13 +124,13 @@ Veja como poderíamos utilizar a herança de classes em nosso exemplo da classe 
 <img src="img/heranca_classe_todo_list.PNG" alt="Classe todo list" height="325" width="570"><br>
 
 <p>
-Perceba que criamos uma classe de nome <a>List</a> que contém um atributo data e um método <a>add()</a>, já na <a>classe TodoList</a> nós utilizamos o recurso do <a>extends</a> para herdarmos os atributos e métodos da <a>classe List</a>, desta forma temos acesso a todos os seus recurso. Também conseguimos adicionar mais funcionalidades (atributos e métodos) a essa classe herdada, se esse for o caso precisaremos utilizar o recurso do <a>super()</a> dentro do construtor da classe filho e em seguida adicionar os novos atributos e métodos à <a>classe TodoList</a>, vejamos o exemplo abaixo.
+Perceba que criamos uma classe de nome <em><strong>List</strong></em> que contém um atributo data e um método <em><strong>add()</strong></em>, já na <code>classe TodoList</code> nós utilizamos o recurso do <em><strong>extends</strong></em> para herdarmos os atributos e métodos da <code>classe List</code>, desta forma temos acesso a todos os seus recurso. Também conseguimos adicionar mais funcionalidades (atributos e métodos) a essa classe herdada, se esse for o caso precisaremos utilizar o recurso do <code>super()</code> dentro do construtor da classe filho e em seguida adicionar os novos atributos e métodos à <em><strong>classe TodoList</strong></em>, vejamos o exemplo abaixo.
 </p>
 
 <img src="img/extends_classe_list.PNG" alt="Extends classe list" height="190" width="570"><br>
 
 <p>
-Os métodos static possui uma particularidade, com ele conseguimos invocar um método sem a necessidade de instanciar um objeto <a>cons minhaLista = new TodoList()</a>  e em seguida <a>minhaLista.add()</a> isso ocorre porque os métodos statcs não enxergam o escopo externo ou seja ele só manipula informações interna no método ignorando o <a>constructor()</a> e restante da classe, ele é muito utilizado para receber alguma informação e gerar outra independente do contexto externo na classe em que foi criado, veja um exemplo com <a>classe Matematica</a> e método <a>static soma()</a>:
+Os métodos static possui uma particularidade, com ele conseguimos invocar um método sem a necessidade de instanciar um objeto <code>cons minhaLista = new TodoList()</code>  e em seguida <code>minhaLista.add()</code> isso ocorre porque os métodos statcs não enxergam o escopo externo ou seja ele só manipula informações interna no método ignorando o <code>constructor()</code> e restante da classe, ele é muito utilizado para receber alguma informação e gerar outra independente do contexto externo na classe em que foi criado, veja um exemplo com <em><strong>classe Matematica</strong></em> e método <em><strong>static soma()</strong></em>:
 </p>
 
 
@@ -136,14 +142,14 @@ Os métodos static possui uma particularidade, com ele conseguimos invocar um m�
 Se você utiliza o javaScript básico há algum tempo sabe que utilizamos a palavra reservada var nomeDaVariavel = “valor” para declarar/iniciar variáveis e com as novas feature de ECS6+ ganhamos mais duas novas maneiras de declaramos uma é a const e a outra é let.<br>
 Uma constante não pode ter seu valor reatribuido, neste caso podemos multar seu valor e qual seria a diferencia entre multar e reatribuir valor de uma constante. Quando utilizamos a sintaxe de objetos conseguimos reatribuir os valores dos seus atributos vejamos:<br>
 <code>
-`const a = 1<br>
+const a = 1<br>
 a = 3 <br>
 const objeto = { <br>
     nome: "Lucas",<br>
     idade: 25<br>
 }<br>
 objeto.idade = 25 <br>
-console.log(objeto, a)<br>`
+console.log(objeto, a)<br>
 </code>
 
 </p>
@@ -164,17 +170,3 @@ console.log(objeto, a)<br>`
 <h2> Adicionando repos </h2>
 <h2> Buscando Api </h2>
 <h2> Loading </h2>
-
-
-<pre><code>$ docker build --tag parse-server .
-$ docker run --name my-mongo -d mongo
-$ docker run --name my-parse-server --link my-mongo:mongo -d parse-server --appId APPLICATION_ID --masterKey MASTER_KEY --databaseURI mongodb://mongo/test
-</code></pre>
-
-<br><br>
-
-<pre><code>$ npm install -g parse-server mongodb-runner
-$ mongodb-runner start
-$ parse-server --appId APPLICATION_ID --masterKey MASTER_KEY --databaseURI mongodb://localhost/test
-</code></pre>
-<p><em><strong>Note:</strong></em> <em>If installation with</em> <code>-g</code> <em>fails due to permission problems</em> (<code>npm ERR! code 'EACCES'</code>), <em>please refer to <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions" rel="nofollow">this link</a>.</em></p>
