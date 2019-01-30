@@ -21,7 +21,7 @@ Então sem mais delongas vamos dar início ao curso. </p> <br>
 <h2> <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/SUMMARY.md">Summary</a></h2>
 
 
-<h2> Instalação e Configuração </h2>
+<!-- <h2> Instalação e Configuração </h2>
 
 Para darmos inicio no curso teremos que baixar um gerenciado de dependências que facilitará a instalação de pacotes e bibliotecas, nesse caso será o chocolatey para Windows pois será o sistema que iremos trabalhar daqui pra frente, então acese o site do <a href="https://chocolatey.org/" target="blank">chocolatey</a> e siga as instruções de instalção: <br><br>
 <b>Instalar com o PowerShell</b><br>
@@ -149,4 +149,4 @@ console.log(objeto, a)<br>
 <h1> App com es6+ </h1>
 <h1> Adicionando repos </h1>
 <h1> Buscando Api </h1>
-<h1> Loading </h1>
+<h1> Loading </h1> -->
