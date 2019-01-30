@@ -9,37 +9,18 @@ Consulte o <a href="http://www.ecma-international.org/ecma-262/6.0/index.html" t
 
 <p>Este repositório trata-se de um curso de JavaScript ES6+ que aborda as principais feature do javaScript 2015 e as mais atuais. <br> No decorrer do curso iremos aprender não somente as novas features JS, mas trabalhares com babel, webpack e yarn em uma aplicação simples utilizando todos os recursos aprendidos no curso, é extremamente recomendado que ao iniciar o curso você já possua um conhecimento básico de lógica de programação e esteja familiarizado com terminal de controle de seu sistema operacional.</p>
 
-<h4>Recursos do JavaScript ES6+ e Tópicos Extras.</h4>
-<ul>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-ecmascript-2015-" target="blank">ECMAScript 2015</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-" target="blank">Instalação e Configuração</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-babel-" target="blank">Babel</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-classe-" target="blank">Classe</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-const--let-" target="blank">Const & Let</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-array-" target="blank">Array</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-arrow-" target="blank">Arrow</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-valores-padr%C3%B5es-" target="blank">Valores padrões</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-desistrutura%C3%A7%C3%A3o-" target="blank">Desistruturação</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-rest--spread-" target="blank">Rest & Spread</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-templete-literal-" target="blank">Templete Literal</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-sintaxe-curta-objetos-" target="blank">Sintaxe curta objetos</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-webpack-" target="blank">Webpack</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-import--export-" target="blank">Import & Export</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-webpack-devserver-" target="blank">Webpack devServer</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-async--await-" target="blank">Async & Await</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-axios-e-api-" target="blank">Axios e Api</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-app-com-es6-" target="blank">App com es6+</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-adicionando-repos-" target="blank">Adicionando repos</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-buscando-api-" target="blank">Buscando Api</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-loading-" target="blank">Loading</a></li>
-</ul>
-
 <br>
 <h2> ECMAScript 2015 </h2>
 <p>
 Fala galera tudo bem com vocês? Meu nome é Lucas Pedro estou cursando o 5ª período em Engenharia de Software e irei ministrar esse curso de javscript ES6+. Antes que possamos dar início às explicações e colocar a mão na	massa, é muito importante entender corretamente o que é o ECMAScript e qual a sua relação com o JavaScript. O ECMAScript (ES) é a especificação da linguagem de script que o JavaScript implementa. Isto é, a descrição de uma linguagem de script, sendo padronizado	pela Ecma International (http://www.ecmascript.org/index.php) —	associação criada em 1961 dedicada à padronização de	sistemas de	informação e comunicação — na especificação	ECMA-262. ECMAScript 2015 sofreu uma mudança significativa melhorando o desenvolvimento e trabalhando melhor os conceitos como paradigmo Orientado Objeto já concebido em outras liguagem como Java e PHP, vários outros recurso que ajudam a tornar o JS uma liguagem ainda mais poderesa.
 Então sem mais delongas vamos dar início ao curso. </p> <br>
 <p>
+
+<p><b>Nota: </b><em>Os demais tópicos serão apresentados no sumário a seguir, cujo o link segue abaixo.</em></p>
+
+<h2> <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/SUMMARY.md">Summary</a></h2>
+
+
 <h2> Instalação e Configuração </h2>
 
 Para darmos inicio no curso teremos que baixar um gerenciado de dependências que facilitará a instalação de pacotes e bibliotecas, nesse caso será o chocolatey para Windows pois será o sistema que iremos trabalhar daqui pra frente, então acese o site do <a href="https://chocolatey.org/" target="blank">chocolatey</a> e siga as instruções de instalção: <br><br>
@@ -153,19 +134,19 @@ console.log(objeto, a)<br>
 
 </p>
 
-<h2> Array </h2>
-<h2> Arrow </h2>
-<h2> Valores padrões </h2>
-<h2> Desistruturação </h2>
-<h2> Rest & Spread </h2>
-<h2> Templete Literal </h2>
-<h2> Sintaxe curta objetos </h2>
-<h2> Webpack </h2>
-<h2> Import & Export </h2>
-<h2> Webpack devServer </h2>
-<h2> Async & Await </h2>
-<h2> Axios e Api </h2>
-<h2> App com es6+ </h2>
-<h2> Adicionando repos </h2>
-<h2> Buscando Api </h2>
-<h2> Loading </h2>
+<h1> Array </h1>
+<h1> Arrow </h1>
+<h1> Valores padrões </h1>
+<h1> Desistruturação </h1>
+<h1> Rest & Spread </h1>
+<h1> Templete Literal </h1>
+<h1> Sintaxe curta objetos </h1>
+<h1> Webpack </h1>
+<h1> Import & Export </h1>
+<h1> Webpack devServer </h1>
+<h1> Async & Await </h1>
+<h1> Axios e Api </h1>
+<h1> App com es6+ </h1>
+<h1> Adicionando repos </h1>
+<h1> Buscando Api </h1>
+<h1> Loading </h1>
