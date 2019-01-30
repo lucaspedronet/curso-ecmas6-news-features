@@ -62,14 +62,13 @@ Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamo
 <Ul>
     <li><code>$ yarn add @babel/cli</code> [ Instalando a cli do babel (linha de comando do Babel). ]</li>
     <li><code>$ @babel/preset-env</code> [ Instalando a preset-env. ]</li>
-    
 </ul>
 
 <p>Vamos criar na raiz de nosso projeto um arquivo `.babelrc`  que vai conter o seguinte trecho de código:</p>
 <code>
-{<br>
-    "presets": ["@babel/preset-env"]<br>
-}<br>
+{<br/>
+    "presets": ["@babel/preset-env"]<br/>
+}<br/>
 
 </code>
 <p>
@@ -77,7 +76,7 @@ O babel possui vários preset-env ele vai identificar qual ambiente nós estamos
 Vamos adicionar mais uma dependência ao babel: 
 </p>
 <code>yarn add @babel/core</code>
-<br>
+<br><br>
 <p>
 Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um <code>alert(‘Funcionou’)</code>.<br>
 Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “script” conforme figura abaixo:<br><br>
