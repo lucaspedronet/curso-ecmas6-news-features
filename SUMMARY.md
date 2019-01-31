@@ -7,10 +7,10 @@
 
 <ul>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-ecmascript-2015-" target="blank">ECMAScript 2015</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-" target="blank">Instalação e Configuração</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/instalacao-e-configuracao.md" target="blank">Instalação e Configuração</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-babel-" target="blank">Babel</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-classe-" target="blank">Classe</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-const--let-" target="blank">Const & Let</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/classe.md" target="blank">Classe</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/const-e-let.md" target="blank">Const & Let</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-array-" target="blank">Array</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-arrow-" target="blank">Arrow</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features#-valores-padr%C3%B5es-" target="blank">Valores padrões</a></li>
