@@ -14,7 +14,7 @@
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/array.md" target="blank">Array</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/arrow.md" target="blank">Arrow</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/valores-padroes.md" target="blank">Valores padrões</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/desistruturacao.md" target="blank">Desistruturação</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/desistruturacao-valores-padrao.md" target="blank">Desistruturacao e Valores padrao</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/rest-spread.md" target="blank">Rest & Spread</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/templete-literal.md" target="blank">Templete Literal</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/sintaxe-curta-objetos.md" target="blank">Sintaxe curta objetos</a></li>
