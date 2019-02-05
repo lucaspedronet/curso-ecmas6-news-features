@@ -35,10 +35,10 @@ const usuario = {
 O objeto acima poderia ter seus atributos acessado da seguinte maneira:
 </p>
 
-<code> const name = usuario.nome</code>
-<code> const idade = usuario.idade </code>
-<code> const uf = usuario.endereco.UF </code>
-<code> const cidade = usuario.endereco.cidade </code>
+<code> const name = usuario.nome</code><br>
+<code> const idade = usuario.idade </code><br>
+<code> const uf = usuario.endereco.UF </code><br>
+<code> const cidade = usuario.endereco.cidade </code><br>
 
 <p>
 Entretanto com as novas feacture ECAMS6+ temos uma maneira mais fácil de acessa-los usando desestruturação de objetos, veja a seguir:
