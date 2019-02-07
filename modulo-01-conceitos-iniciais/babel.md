@@ -20,7 +20,7 @@ O babel possui vários <i><em><b>preset-env</b></em></i> ele é o responsável p
 
 <h4>Vamos adicionar mais uma dependência ao babel: </h4>
 
-<pre>yarn add @babel/core<pre>
+<pre>yarn add @babel/core</pre>
 
 <p>Ainda na raiz de nosso projeto vamos criar um arquivo <i><em><b>index.html</b></em></i> e <i><em><b>main.js</b></em></i> dentro do <i><em><b>main.js</b></em></i> adicione um <code>alert(‘Funcionou’)</code>.<br>
 Feito isso vamos no arquivo packege.json e criar mais um objeto de nome <i><em><b>“script”</b></em></i> conforme figura abaixo:<br>
