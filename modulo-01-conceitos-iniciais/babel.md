@@ -33,7 +33,7 @@ Feito isso vamos no arquivo packege.json e criar mais um objeto de nome <i><em><
 </pre></div>
 
 <p>
-O atributo <i><em><b>dev<<b></em></i> vai pegar nosso arquivo <i>main.js</i> e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
+O atributo <i><em><b>dev<</b></em></i> vai pegar nosso arquivo <i>main.js</i> e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
 
 
 <i><em><b>Note</b></em></i> que foi criado um arquivo <em>budle.js</em>na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>alert(‘Funcionou’)</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação. Então vamos adicionar uma classe que é um feacture da versão mais recente no ECS6+ acompanhe na imagem abaixo, dentro do main.js reescreva o código da seguinte forma:
