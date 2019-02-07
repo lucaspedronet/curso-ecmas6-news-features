@@ -15,3 +15,13 @@ const dados = {
   cidade: cidade
 }
 </pre></div>
+
+<p>Perceba que existe uma redundância entre os nomes dos atributos do objetos e as variáveis, para corrigir isso as novas feacture ECAMS6+ elimina os nomes que coincidirem, veja como fica:
+</p>
+
+<code>// COM SINTAXE CURTA DE OBJETOS
+const dados = {
+  nome,
+  idade,
+  cidade
+}
