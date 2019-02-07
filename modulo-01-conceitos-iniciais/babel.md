@@ -34,5 +34,36 @@ Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “scrip
 
 <p>
 O atributo <i>dev</i> vai pegar nosso arquivo <i>main.js</i> e transpilar todo o seu código em um novo arquivo chamado bunlde.js que seja compreendido por maioria dos navegadores, para realizar essa transpilação vá em seu terminal e digite <b>yarn dev.</b><br><br>
-Note que foi criado um arquivo <em>budle.js </em>na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>alert(‘Funcionou’)</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação.
+Note que foi criado um arquivo <em>budle.js </em>na raiz de seu projeto contendo o código convertido, mas perceba que nada mudou se comparado com main.js isso ocorre porque o <code>alert(‘Funcionou’)</code> é uma função reconhecida por versões anterios do ECS então ela é compreendida por todos os navegadores por isso não requer uma transpilação. Então vamos adicionar uma classe que é um feacture da versão mais recente no ECS6+ acompanhe na imagem abaixo, dentro do main.js reescreva o código da seguinte forma:
 </p>
+
+<div><pre>
+class teste {
+    static metodo (){
+        alert('Funcionou')
+    }
+}
+
+</div></pre>
+
+<br><p>Agora abra seu arquivo budle.js e veja como ficou! </p><br>
+
+<div><pre>
+/*#__PURE__*/
+function () {
+  function teste() {
+    _classCallCheck(this, teste);
+  }
+
+  _createClass(teste, null, [{
+    key: "metodo",
+    value: function metodo() {
+      alert('Funcionou');
+    }
+  }]);
+
+  return teste;
+}();
+
+</div></pre>
+
