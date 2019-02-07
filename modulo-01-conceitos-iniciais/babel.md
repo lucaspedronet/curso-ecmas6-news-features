@@ -1,28 +1,28 @@
 <h1> Babel </h1>
 
-<p>Configurando o Babel, depois de ter instalado o node e yarn em sua máquina vamos criar uma paste de nome <i>es6</i> que irá conter nosso projeto, em seguida abra seu terminal a partir dessa pasta e execute o seguinte comando: `yarn init` Pressione a tecla Entre até aparecer a mensagem <i>success saved packege.json</i> (As versoes mais recente do yarn pode pedir para que informe o nome do projeto nesse caso pode colocar o mesmo nome da pasta do projeto) esse comando criará um arquivo packege,json que gerenciará as dependências instaladas no projeto. Vamos precisar instalar algumas dependências e para isso precisamos da linha de comando do Babel instalada.
+<p>Configurando o Babel, depois de ter instalado o <i><em>node e yarn</i></em> em sua máquina vamos criar uma pasta de nome <i>es6</i> que irá conter nosso projeto, em seguida abra seu terminal a partir dessa pasta e execute o seguinte comando: <code>yarn init</code> Pressione a tecla Entre até aparecer a mensagem <i><em>success saved packege.json</i></em> (As versoes mais recente do yarn pode pedir para que informe o nome do projeto nesse caso pode colocar o mesmo nome da pasta do projeto) esse comando criará um arquivo packege,json que gerenciará as dependências instaladas no projeto. Vamos precisar instalar algumas dependências, para isso iremos precisar do <i><em>babel-cli</i></em> instalado em nossa máquina, é simplesmente uma linha de comando que Babel utiliza para instalar suas dependências e etc.
 </p> 
 <Ul>
-    <li><code>$ yarn add @babel/cli</code> [ Instalando a cli do babel (linha de comando do Babel). ]</li>
-    <li><code>$ @babel/preset-env</code> [ Instalando a preset-env. ]</li>
+    <li><code>$ yarn add @babel/cli</code> <i><em>[ Instalando a cli do babel (linha de comando do Babel). ]</i></em></li>
+    <li><code>$ yarn add @babel/preset-env</code> [ Instalando a preset-env. ]</li>
 </ul>
 
 <p>Vamos criar na raiz de nosso projeto um arquivo `.babelrc`  que vai conter o seguinte trecho de código:</p>
-<code>
-{<br/>
-    "presets": ["@babel/preset-env"]<br/>
-}<br/>
+<div><pre>
+{
+  "presets": ["@babel/preset-env"]
+}
+</pre></div>
 
-</code>
 <p>
-O babel possui vários preset-env ele vai identificar qual ambiente nós estamos utilizando para desenvolver se é um navegador (páginas web), Servidor nodejs (API Rest) ou Mobile(RN) e fará o trabalho de transpilar todo nosso código JSES6+ para um versão que seja compreendia pela maioria do navegadores e irá fazer isso da melhor forma possível.<br>
-Vamos adicionar mais uma dependência ao babel: 
+O babel possui vários <i><em>preset-env</i></em> ele é o responsável por identificar qual ambiente estamos utilizando para desenvolver o projeto, se é um navegador (páginas web), servidor nodejs (API Rest) ou mobile(RN) e fará o trabalho de transpilar todo nosso código JSES6+ para uma versão que seja compreendia pela maioria dos navegadores e irá fazer isso da melhor forma possível.
 </p>
+
+<h4>Vamos adicionar mais uma dependência ao babel: </h4>
 
 <div><pre>yarn add @babel/core<pre></div>
 
-<p>
-Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um <code>alert(‘Funcionou’)</code>.<br>
+<p>Agora ainda na raiz de nosso projeto vamos criar um arquivo index.html e main.js dentro do main.js adicione um <code>alert(‘Funcionou’)</code>.<br>
 Feito isso vamos no arquivo packege.json e criar mais um objeto de nome “script” conforme figura abaixo:<br>
 </p>
 
@@ -43,10 +43,9 @@ class teste {
         alert('Funcionou')
     }
 }
-
 </div></pre>
 
-<br><p>Agora abra seu arquivo budle.js e veja como ficou! </p><br>
+<p>Agora abra seu arquivo budle.js e veja como ficou! </p>
 
 <div><pre>
 /*#__PURE__*/
@@ -64,6 +63,5 @@ function () {
 
   return teste;
 }();
-
 </div></pre>
 
