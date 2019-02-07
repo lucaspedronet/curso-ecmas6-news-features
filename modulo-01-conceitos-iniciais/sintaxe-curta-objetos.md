@@ -28,3 +28,6 @@ const dados = {
   cidade
 }
 </div></pre>
+
+<p>Desta maneira conseguimos aplicar a sintaxe curta de objetos, se dermos um <code>console.log(dados.nome)</code> teremos <code>// Lucas Pedro</code>
+</p>
