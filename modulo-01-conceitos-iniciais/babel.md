@@ -65,5 +65,5 @@ function () {
 
   return teste;
 }();
-</div></pre>
+</pre></div>
 
