@@ -20,3 +20,18 @@ Então sem mais delongas vamos dar início ao curso. </p> <br>
 
 <h2> <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/SUMMARY.md">Summary</a></h2>
 
+### Conhecimento desejável
+### Código-fonte
+### Dependências
+
+<p>
+Uma lista de software necessário para darmos inicio ao curso no ambiente Windows 10. <br>
+</p>
+<ol>
+  <li><b><em>Chocolatey</em></b>: disponível em https://chocolatey.org/ é um gerenciador de pacotes e instalação de software para o ambiente windows, como chocolatey conseguimos instalar facilmente e de maneira correta sem dor de cabeça várias dependências.</li>
+  <li><b><em>Node.js</em></b>: disponível em https://nodejs.org representa um ambiente de execução do JavaScript fora do browser e também inclui o npm, um gerenciador de pacotes</li>
+  <li><b><em>Yarn</em></b>: disponível em: https://yarnpkg.com/pt-BR/ é um gerenciador de pacotes que irá gerenciar as dependências do nosso projeto igual ao npm (node packge manege) porém mais rápido.</li>
+  <li><b><em>4\. VisualStudioCode</em></b>: disponível em https://code.visualstudio.com/ particulamente é a melhor ide em já trabalhei e será muito util em nossos projetos.</li>
+</ol>
+
+### Visão geral
