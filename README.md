@@ -20,7 +20,7 @@ Então sem mais delongas vamos dar início ao curso. </p> <br>
 
 ### Conhecimento desejável
 <ol>
-  <li><b><em>Lógica de programção</em></b>: O curso <b>não</b> irá abordar os conceitos básicos, por isso é autamente recomendável possuir esse conhecimento.</li>
+  <li><b><em>Lógica de programação</em></b>: O curso <b>não</b> irá abordar os conceitos básicos, por isso é altamente recomendável possuir esse conhecimento.</li>
   <li><b><em>Terminal</em></b>: Ter o mínimo de conhecimento em promt para windows</li>
   <li><b><em>Html</em></b>: Saber o necessário para desenvolver uma página web simples com tag, formulário, butões e etc.</li>
   <li><b><em>CSS</em></b>: Saber o mínimo para estilizar uma página web simples contendo classe, id, estilos simples e etc.</li>
