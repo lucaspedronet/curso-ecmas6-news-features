@@ -5,19 +5,6 @@ Se você utiliza o javaScript básico há algum tempo sabe que utilizamos a pala
 Uma constante não pode ter seu valor reatribuido, neste caso podemos multar seu valor e qual seria a diferencia entre multar e reatribuir valor de uma constante. Quando utilizamos a sintaxe de objetos conseguimos reatribuir os valores dos seus atributos vejamos:<br>
 </p>
 <div><pre>
-const a = 1
-a = 3 //não funciona desta forma
-const objeto = { 
-    nome: "Lucas",
-    idade: 25
-}
-objeto.idade = 25 //multando valor de idade.
-console.log(objeto, a)
-</pre></div>
-
-<br><br>
-
-<div><pre>
 function somar(a1){
     let y = 10
     if (a1 > y){
@@ -26,4 +13,3 @@ function somar(a1){
     }
 }
 console.log(somar(30))
-</pre></div>
