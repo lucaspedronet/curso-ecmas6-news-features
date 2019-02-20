@@ -21,10 +21,10 @@
 ### MÓDULO 02 - Webpack Server
 
 <ul>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/webpack-configurando.md" target="blank">Configurando o Webpack</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/webpack-" target="blank">Webpack</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/import--export-" target="blank">Import & Export</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/webpack-devserver-" target="blank">Webpack devServer</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-configurando.md" target="blank">Configurando o Webpack</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-" target="blank">Webpack</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/import--export-" target="blank">Import & Export</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-devserver-" target="blank">Webpack devServer</a></li>
 </ul>
 
 ### MÓDULO 03 - Async/Await
