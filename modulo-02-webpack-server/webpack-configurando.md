@@ -71,7 +71,7 @@
   </p><br>
 
   <p>Vamos então criar um novo arquivo de nome funções.js que conterá as seguintes funções: </p>
-  <img src="./assets/import-export-funcoes.PNG">
+  <img src="../assets/import-export-funcoes.PNG">
 
   <p>Então dentro do arquivo main.js vamos importa as funções que acabamos de criar em nosso arquivo funcoes.js</p>
 </div>
