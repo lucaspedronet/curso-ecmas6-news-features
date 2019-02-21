@@ -69,7 +69,7 @@
 
   <p>Em seu terminal execute o comando <b>$ yarn dev</b> novamente, o resultado deve ser algo parecido com a imagem que temos abaixo.</p><br>
 
-  <img src="../assets/webpack-configurando-02.PNG" width="538" height="305" />
+  <img src="../assets/webpack-configurando-02.PNG" width="538" height="305" >
 
   <h2> <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/import-export.md" alt="Próximo conteúdo"> Trabalhando com import & Expport </a>
 
