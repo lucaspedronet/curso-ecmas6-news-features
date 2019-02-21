@@ -13,7 +13,7 @@
 </p>
 <div>
  <ul>
- <li><b>yarn add webpack webpack-cli</b>: <label>[Instalando webpack e webpack-cli]</label></li>
+ <li><b>yarn add webpack webpack-cli -D</b>: <label>[Instalando webpack e webpack-cli]</label></li>
  <li><b>webpack-cli</b>: <label>[ <i><em>é a linha de comandos do webpack.</em></i>]</label></li>
  <li><b>webpack</b>: <label>[ <i><em>Em essência, o webpack é um empacotador de módulos estáticos para aplicativos JavaScript modernos. </em></i>]</label></li>
  </ul>
@@ -59,39 +59,18 @@
 <div>
   <h4>Voltamos ao terminal e vamos instalar mais uma dependência ao nosso package.json em ambiente de desenvolvimento.</h4>
 
-  <b>yanr add babel-loader  –D</b><br>
+  <b>yarn add babel-loader  –D</b><br>
 
   <p>E em nosso arquivo package.json no scriprs devemos alterar deixando da seguinte forma:</p>
   
-  <div><pre>"scripts": {
+  <pre><div>"scripts": {
     "dev": "webpack --module-development -w"
-  }</pre></div>
+  }</div></pre>
 
-  <p>Em sequência vamos colocar o nosso webpack pra rodar, vá em seu terminal e digite <b>yarn dev</b>. Para testarmos esse webpack vamos começar a trabalhar com <em>import/export </em>e antes de mais nada alteraremos o arquivo <em>index.js</em> que atualmente recebe em seu script o <em>main.js</em> e vamos alterar para <em>bundle.js</em>.
-  </p><br>
+  <p>Em seu terminal execute o comando <b>$ yarn dev</b> novamente, o resultado deve ser algo parecido com a imagem que temos abaixo.</p><br>
 
-  <p>Vamos então criar um novo arquivo de nome funções.js que conterá as seguintes funções: </p>
-  <img src="../assets/import-export-funcoes.PNG" name="img-importe-export" alt="img-import-export" height="321" width="636" >
+  <img src="../assets/webpack-configurando-02.PNG" width="538" height="305" />
+
+  <h2> <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/import-export.md" alt="Próximo conteúdo"> Trabalhando com import & Expport </a>
 
 </div>
-
-  <div>
-    <p>Então dentro do arquivo <i>main.js</i> vamos importa as funções que acabamos de criar em nosso arquivo <i>funcoes.js</i></p>
-  
-    <img src="../assets/import-export-funcoes-02.PNG" height="128" width="633"/>
-  
-    <p>Chamamos as funções entre chaves do arquivo <i><em>./funções</em></i> isso é bastante utilizado em bibliotecas como react e reac-native por exemplo, também conseguimos atribuir um default para alguma função, classe e etc porém apenas uma pode ser definida por arquivo. Bastando colocar a palavra default após o export ficando <b><em>export default function soma()</em></b>.
-    </p>
-  </div>
-
-<div>
-  <p>
-    Veja outros exemplos de import e export:
-  </p>
-  <img src="../assets/import-export-funcoes-03.PNG" name="img-importe-export-03" alt="img-import-export-03" height="233" width="631" >
-
-  <p>Quando definimos um export como `default` podemos importa-la sem a necessidade de usar as chaves entre ela e o mesmo pode ser renomeada para qualquer nome que desejar, foi o que aconteceu em somaFuncao, para obtermos os mesmos resultados sem utilizar default precisamos do “as” nesse caso deve ser passado entre chaves pois não estamos utilizando default, ficando da seguinte forma <code>import { sub as subtração } from “./funções”</code> .
-  </p>
-</div>
-
-### <a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-devserver.md" alt="Webpack-devServer" > Webpack devServer</a>
