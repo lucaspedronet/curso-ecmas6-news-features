@@ -22,7 +22,7 @@
 
 <ul>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-configurando.md" target="blank">Configurando o Webpack</a></li>
-    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-" target="blank">Webpack</a></li>
+    <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-devserver.md" target="blank">webpack-devserver</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/import--export-" target="blank">Import & Export</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-02-webpack-server/webpack-devserver-" target="blank">Webpack devServer</a></li>
 </ul>
