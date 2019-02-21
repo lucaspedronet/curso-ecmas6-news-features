@@ -6,17 +6,14 @@
   <p>Vamos então criar um novo arquivo de nome funções.js que conterá as seguintes funções: </p>
 
   <img src="../assets/import-export-funcoes.PNG" name="img-importe-export" alt="img-import-export" height="321" width="636" >
-
+  
   <div>
-    <p>Então dentro do arquivo <i>main.js</i> vamos importa as funções que acabamos de criar em nosso arquivo <i>funcoes.js</i></p>
-  
-    <img src="../assets/import-export-funcoes-02.PNG" height="128" width="633"/>
-  
-    <p>Chamamos as funções entre chaves do arquivo <i><em>./funções</em></i> isso é bastante utilizado em bibliotecas como react e reac-native por exemplo, também conseguimos atribuir um default para alguma função, classe e etc porém apenas uma pode ser definida por arquivo. Bastando colocar a palavra default após o export ficando <b><em>export default function soma()</em></b>.
-    </p>
+    <p>Então dentro do arquivo <code>main.js</code> vamos importa as funções que acabamos de criar em nosso arquivo <i><em>funcoes.js</em></i></p><br>
+    <img src="../assets/import-export-funcoes-02.PNG" height="128" width="633">
+    <p>Note que todas as funções do arquivo funcoes.js estão sendo importadas para dentro do <code>main.js</code> <b></i>import {soma, dev, mult, sub } from './funcoes'</i></b> onde desta maneira podemos utiliza-las, perceba que todas as funções importadas foram passada entre o abrir e fechar de uma chave, isso ocorrer porque tudo que quisermos exportar seja funções, objetos, variável, classes e etc, e não declararmos o <code>default</code> então devemos fazer o uso das chaves.</p>
+    <p>Cada arquivo .js só pode ter apenas um propriedade <code>default</code> ou seja, em nosso exemplo do arquivo funcoes.js somente uma das funções poderia receber a propriedade default.</p>
   </div>
-
-<div>
+  <div>
   <h4>Veja outros exemplos de import e export:</h4>
 
   <img src="../assets/import-export-funcoes-03.PNG" name="img-importe-export-03" alt="img-import-export-03" height="233" width="631" >
