@@ -4,18 +4,6 @@
 Se você utiliza o javaScript básico há algum tempo sabe que utilizamos a palavra reservada var nomeDaVariavel = “valor” para declarar/iniciar variáveis e com as novas feature de ECS6+ ganhamos mais duas novas maneiras de declaramos uma é a const e a outra é let.<br>
 Uma constante não pode ter seu valor reatribuido, neste caso podemos multar seu valor e qual seria a diferencia entre multar e reatribuir valor de uma constante. Quando utilizamos a sintaxe de objetos conseguimos reatribuir os valores dos seus atributos vejamos:<br>
 </p>
-
-<div><pre>
-const a = 1
-a = 3 //não funciona desta forma
-const objeto = { 
-    nome: "Lucas",
-    idade: 25
-}
-objeto.idade = 25 //multando valor de idade.
-console.log(objeto, a)
-</pre></div>
-
 <div><pre>
 function somar(a1){
     let y = 10
@@ -25,5 +13,3 @@ function somar(a1){
     }
 }
 console.log(somar(30))
-
-</pre><div>
