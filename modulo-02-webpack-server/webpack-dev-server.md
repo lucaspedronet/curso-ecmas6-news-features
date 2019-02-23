@@ -32,9 +32,9 @@
 
   <p>Veja asseguir como arquivo <b>package.json</b> deve ficar para atender nossas necessidades, tendo em vista que queremos utilizar o <b>webpack-dev-server</b> e não mais o <b>webpack</b> apenas, e quando executarmos nosso projeto (yarn dev) estaremos realizando um processo de compilação.</p>
 
-  <img src="../assets/webpack-dev-server-04.PNG"><br>
+  <img src="../assets/webpack-dev-server-04.PNG"><br><br>
 
-  <p>Nesta alteração foi adicionado mais uma propriedade <b><i>“build”</i></b> ao nosso script, em <b><i>“dev”</i></b> alteramos seu valor para <b><i>“webpack-dev-sever –module=development”</i></b> desta maneira quando iniciar nosso projeto estaremos usando o <b>webpack-dev-server</b> e não mais o <b>wepack</b> apenas. Vá até o promt e execute <code>$ yarn dev</code> em seguida você deve obter uma tela semelhante a que vemos abaixo, como a frase final <em>copiled sucsessofully.</em> </p>
+  <p>Nesta alteração foi adicionado mais uma propriedade <b><i>“build”</i></b> ao nosso script, em <b><i>“dev”</i></b> alteramos seu valor para <b><i>“webpack-dev-sever –module=development”</i></b> desta maneira quando iniciar nosso projeto estaremos usando o <b>webpack-dev-server</b> e não mais o <b>wepack</b> apenas. Vá até o promt e execute <code>$ yarn dev</code> em seguida você deve obter uma tela semelhante a que vemos abaixo, como a frase final <em>copiled sucsessofully.</em> </p><br>
 
   <img src="webpack-dev-server-05.PNG" >
 </div>
