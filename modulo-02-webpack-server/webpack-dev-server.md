@@ -36,7 +36,7 @@
 
   <p>Nesta alteração foi adicionado mais uma propriedade <b><i>“build”</i></b> ao nosso script, em <b><i>“dev”</i></b> alteramos seu valor para <b><i>“webpack-dev-sever –module=development”</i></b> desta maneira quando iniciar nosso projeto estaremos usando o <b>webpack-dev-server</b> e não mais o <b>wepack</b> apenas. Vá até o promt e execute <code>$ yarn dev</code> em seguida você deve obter uma tela semelhante a que vemos abaixo, como a frase final <em>copiled sucsessofully.</em> </p><br>
 
-  <img src="webpack-dev-server-05.PNG" >
+  <img src="../assets/webpack-dev-server-05.PNG" >
 
   <p>Esse processo que o webpack-dev-server realizar é chamado de compilação ou seja ele pega todos nossos arquivos envolvidos no projeto e compila em uma única saída (Bundle.js) nesse caso bundle, mas vocês devem estar se perguntando aonde está o nosso arquivo bundle.js? bem ele não mais estará visível para nós enquanto tivermos trabalhando em modo de desenvolvimento, então para onde foi esse arquivo?</p>
 
