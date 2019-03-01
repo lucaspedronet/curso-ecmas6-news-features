@@ -17,7 +17,7 @@
   </ul><br>
   
   <p>Em seguida vamos instalar nosso <b><em>webpack-dev-server</em></b> no modo de desenvolvimento <i>“-D”</i> em seu terminal execute o seguinte comando:<br><br>
-  <b><em> $ yarn add webpack-dev-sever –D</em></b><br>
+  <b><em> $ yarn add webpack-dev-server –D</em></b><br>
   Após instalar webpack-dev-sever vamos voltar em nosso arquivo <code>webpack.config.js</code> realizar a seguintes alterações:
   </p><br>
 

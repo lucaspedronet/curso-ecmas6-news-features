@@ -29,7 +29,7 @@
 ### MÓDULO 03 - Async/Await
 
 <ul>
-  <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/async--await-" target="blank">Async & Await</a></li>
+  <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-03-funcoes-assincronas/async-await.md" target="blank">Async & Await</a></li>
     <li><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-01-conceitos-iniciais/axios-e-api-" target="blank">Axios e Api</a></li>
     
 </ul>
