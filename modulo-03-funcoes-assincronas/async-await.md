@@ -10,7 +10,7 @@
 A primeira coisa que devemos fazer é instalar dois novos<i>plugins do babel</i>, isso é necessário porque o <em><i>babel não compreende todas as feature do JS6+ de forma nativa (ES9 por exemplo) então ele precisa de recurso auxiliares para tornar isso possível</i></em>, uma vez instalados, esses plug-ins auxiliares irão permitir que o babel compreenda <i>async/await</i> e os transpile da maneira mais coerente possível; Então vamos ver como instalar e configurar esses plug-ins:
 </p>
 
-<div><pre>
+<pre>
   <ul>
     <li>$ yarn add @babel/plugin-transform-async-to-generator -D </li>
     <li>$ yarn add @babel/polyfill –D </li>
