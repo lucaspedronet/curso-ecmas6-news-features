@@ -43,10 +43,10 @@
   <p>
   O build está em algum lugar sendo executado pelo webpack, mas perceba que em nosso script dentro do arquivo package.json temos um parâmetro chamado build e esse será o script deveremos executar sempre que quisermos subir nosso sistema para ambiente de produção, acompanhe abaixo como fazer esse processo: <br><br>
   <ul>
-    <li> <b>$ yarn build</a>: [ <i>Executando o processo de Build (construir ) </i> ] </li>  
-  </ul> <br><br>
+    <li> <b>$ yarn build</b>: [ <i>Executando o processo de Build (construir ) </i> ] </li>  
+  </ul> <br>
   Após o processo ser finalizado vá na pasta public e veja quem esta por lá além do <i>index.js</i> é claro. Viu o <i>bundle.js</i>? Então esse é todo nosso sistema compilado para um único arquivo. <i> Mas atenção esse arquivo somente irá funcionar em ambiente de produção.</i>
-</p>
+</p><br>
 
-  <h1><a href="" target="_blank"> Funções assíncronas</a></h1>
+  <h1><a href="https://github.com/lucaspedronet/curso-ecmas6-news-features/blob/master/modulo-03-funcoes-assincronas/async-await.md" target="_blank"> Funções assíncronas</a></h1>
 </div>
