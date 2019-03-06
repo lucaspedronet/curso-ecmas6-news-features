@@ -15,7 +15,7 @@ A primeira coisa que devemos fazer é instalar dois novos<i>plugins do babel</i>
     <li>$ yarn add @babel/plugin-transform-async-to-generator -D </li>
     <li>$ yarn add @babel/polyfill –D </li>
   </ul>
-<pre>
+</pre>
 
 <p>OBS: <em>“-D”</em> indica que essa instalação será feita em ambiente de desenvolvimento.<br><br>
 Feita as devidas instalações vamos realizar algumas alterações em nossos arquivos .babelrc e <i>webpack.config.js</i> abra o arquivo <i>.babelrc</i> e deixe-o da seguinte forma:
